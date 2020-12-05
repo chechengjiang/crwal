@@ -158,7 +158,7 @@ public class MyCrawler {
         sqlSession.commit();
         sqlSession.close();
     }
-    @Test
+
     public void test() {
         try {
             InputStream inputStream = Resources.getResourceAsStream("mybatis-config.xml");
